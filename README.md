@@ -1,28 +1,31 @@
 # 📈 StockApp – Modern Stock Market Tracker
 
-**StockApp** is a production-grade Android application built using **Jetpack Compose** and **Hilt**, designed to provide real-time insights into the stock market. Users can search for stocks, track top gainers and losers, and view detailed company information, including price trends and key financial metrics.
+**StockApp** is a modern Android stock market tracking app built using **MVVM architecture**, **Hilt**, and **Retrofit**. It allows users to explore top gainers & losers, search stocks in real-time, and view detailed company insights with interactive charts.
 
 ## 🚀 Features
 
-- 🔍 **Search Stocks** – Find stocks by company name or ticker symbol.
-- 📊 **Top Gainers & Losers** – Real-time market movers to help identify opportunities.
-- 🧾 **Detailed Stock Insights** – Overview of stock performance, company financials, industry sector, and more.
-- 📈 **Interactive Charts** – Line chart visualization of historical prices using **MPAndroidChart**.
-- ⚙️ **Modular Architecture** – Clean separation of concerns for scalability and maintainability.
-- 💉 **Hilt-Based Dependency Injection** – Modern and efficient DI framework to manage dependencies seamlessly.
-- 🎨 **Jetpack Compose UI** – Fast, modern UI toolkit enabling declarative and reactive user interfaces.
+- 🔍 **Search Stocks** – Find stocks by company name or ticker symbol using Alpha Vantage.
+- 📊 **Top Gainers & Losers** – See real-time market movers with price and % change.
+- 📈 **Detailed Stock View** – Company description, stats, and an interactive line chart for recent prices.
+- 🧾 **Recent Searches** – Smart auto-suggestions and recently searched stocks.
+- 📉 **Pagination Support** – Paginated view of gainers/losers with lazy loading.
+- 💾 **Local Caching** – Uses Room DB to cache stock data for offline availability.
+- 🌙 **Light/Dark Theme Toggle** – UI theme support via popup menu.
+- ⚙️ **Error Handling** – Clean fallbacks with API error safety and UI feedback.
 
 ## 🧰 Tech Stack
 
-| Layer         | Technology Used                             |
-|---------------|---------------------------------------------|
-| UI            | Jetpack Compose, Material3                  |
-| Architecture  | MVVM (Model-View-ViewModel)                 |
-| DI            | Hilt (Dagger)                               |
-| Network       | Retrofit, Gson                              |
-| Charting      | MPAndroidChart                              |
-| Data Layer    | Repository Pattern (Remote & Local Abstraction) |
-| API Provider  | [Alpha Vantage](https://www.alphavantage.co/) |
+| Layer               | Technology Used                               |
+|---------------------|-----------------------------------------------|
+| UI                  | Jetpack Compose / XML                         |
+| State Management    | LiveData, ViewModel                           |
+| Architecture        | MVVM                                          |
+| Dependency Injection| Hilt (Dagger)                                 |
+| Networking          | Retrofit, OkHttp, Gson                        |
+| Charts              | MPAndroidChart                                |
+| Caching             | Room DB, SharedPreferences (optional)         |
+| Pagination          | Paging 3                                      |
+| API Provider        | [Alpha Vantage](https://www.alphavantage.co/) |
 
 ## 📁 Folder Structure
 
