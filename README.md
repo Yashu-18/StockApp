@@ -64,9 +64,6 @@ This project uses the **Alpha Vantage API** for stock data. To run the app, add 
 3. Open the project in Android Studio
 4. Sync Gradle and run the app on an emulator or physical device (API 24+)
 
-## 📸 Screenshots
-
-_Add screenshots here if required._
 
 ## 🙏 Acknowledgments
 
