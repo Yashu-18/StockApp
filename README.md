@@ -62,6 +62,13 @@
  
 </table>
 
+## 📽️ Demo Video
+
+Check out the demo video of the app: [Watch Demo Vedio](https://drive.google.com/file/d/1PRYjqiBfZDblg4dtZuFOYQZ3xABuZTa3/view?usp=drivesdk)
+
+## 📱 Download APK
+
+You can download the latest APK from here: [Download APK](https://drive.google.com/file/d/1TxeZIQ8Av5YG-qFCIFOIZDm27lIJQyJh/view?usp=sharing)
 
 ## 🔐 API Key Setup
 
