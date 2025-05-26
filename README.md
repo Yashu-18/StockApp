@@ -16,7 +16,7 @@
 
 | Layer               | Technology Used                               |
 |---------------------|-----------------------------------------------|
-| UI                  | Jetpack Compose / XML                         |
+| UI                  | Jetpack Compose                               |
 | State Management    | LiveData, ViewModel                           |
 | Architecture        | MVVM                                          |
 | Dependency Injection| Hilt (Dagger)                                 |
