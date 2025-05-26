@@ -10,7 +10,6 @@
 - 🧾 **Recent Searches** – Smart auto-suggestions and recently searched stocks.
 - 📉 **Pagination Support** – Paginated view of gainers/losers with lazy loading.
 - 💾 **Local Caching** – Uses Room DB to cache stock data for offline availability.
-- 🌙 **Light/Dark Theme Toggle** – UI theme support via popup menu.
 - ⚙️ **Error Handling** – Clean fallbacks with API error safety and UI feedback.
 
 ## 🧰 Tech Stack
