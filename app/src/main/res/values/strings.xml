@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Stock</string>
+    <string name="loading">Loading…</string>
+    <string name="stock_edge">Stock Edge</string>
+    <string name="top_gainers">Top Gainers</string>
+    <string name="top_losers">Top Losers</string>
+    <string name="search_stock_by_ticker">Search stocks</string>
+    <string name="details_screen">Details Screen</string>
+    <string name="_1w">1W</string>
+    <string name="_1m">1M</string>
+    <string name="_1y">1Y</string>
+    <string name="all">ALL</string>
+    <string name="about">About %1$s</string>
+    <string name="industry">Industry: %1$s</string>
+    <string name="sector">Sector: %1$s</string>
+    <string name="_52_week_low">52-Week Low</string>
+    <string name="_52_week_high">52-Week High</string>
+    <string name="market_cap">Market Cap</string>
+    <string name="p_e_ratio">P/E Ratio</string>
+    <string name="beta">Beta</string>
+    <string name="dividend_yield">Dividend Yield</string>
+    <string name="profit_margin">Profit Margin</string>
+</resources>
